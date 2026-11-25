@@ -1,0 +1,9 @@
+node_modules/
+playwright-report/
+test-results/
+*.landpay.json
+*.apk
+*.jks
+*.keystore
+.env*
+

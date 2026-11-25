@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101e32">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>LandPay – Land Installment Tracker</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="./app.mjs"></script>
+</head>
+<body>
+<header class="top"><div class="wrap header"><a class="brand" href="./"><span class="mark" aria-hidden="true">◇</span> LandPay</a><nav aria-label="Main navigation"><button data-page="overview" aria-current="page">Overview</button><button data-page="history">History</button><button data-page="settings">Settings</button></nav><button id="add" class="primary">＋ <span>Record payment</span></button></div></header>
+<main class="wrap" id="main" tabindex="-1"><p>Opening LandPay…</p></main>
+<footer class="wrap">LandPay <span>•</span> Your data is stored on this device.</footer>
+<dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+<div id="notice" role="status"></div>
+</body>
+</html>
+
